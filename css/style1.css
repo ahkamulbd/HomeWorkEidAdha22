@@ -1,5 +1,5 @@
 body {
-    margin: 0%;
+    margin: 0;
     padding: 0;
 }
 
@@ -14,8 +14,6 @@ h1 {
     padding: 20px;
 }
 
-h2 {}
-
 section {
     border: 1px solid gray;
     margin-top: 0;
@@ -28,9 +26,14 @@ section {
     background-color: #00ffff;
     margin: 10px;
     padding: 20px;
-    flex: 200px;
+    flex: 1 200px;
 
 }
+
+.flex-box:nth-of-type(3) {
+    flex: 2 200px;
+}
+
 
 p {
     text-align: justify;
